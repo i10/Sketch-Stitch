@@ -6,6 +6,8 @@ Contributers: Nur Hamdan and Kirill Krasnoshchokov
 
 RWTH Aachen University, Germany
 
+Funding:  EU and the state of NRW in Germany. Project 3D Competence Center // 3D-Kompetenzzentrum Niederrhein
+
 Contcat hamdan@cs.rwth-aachen.de
 
 ------------
