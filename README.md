@@ -2,7 +2,7 @@
 
 ------------
 
-Contributers: Nur Hamdan and Kirill Krasnoshchokov
+Contributers: Nur Hamdan and **Kirill Krasnoshchokov**
 
 RWTH Aachen University, Germany
 
