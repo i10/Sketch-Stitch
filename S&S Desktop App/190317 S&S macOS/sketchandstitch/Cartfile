@@ -1,0 +1,2 @@
+# Require version 0.9.x
+github "Exyte/Macaw" ~> 0.9.3
