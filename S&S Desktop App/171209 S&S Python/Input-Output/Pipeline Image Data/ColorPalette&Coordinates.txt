@@ -1,0 +1,5 @@
+TraceColor(359.7°, 81, 90.6)
+InsulationColor(130.3°, 68.9, 52.9)
+ArtColor1(207°, 79.1, 69.4)
+
+ShieldSticker30(967,498)
