@@ -1,0 +1,4 @@
+framework module MacawOSX {
+  header "MacawOSX-Swift.h"
+  requires objc
+}
