@@ -25,8 +25,26 @@ For access to the paper and videos see: https://hci.rwth-aachen.de/sketchstitch
 **How To Run The Application**
 
 From the 'master' branch, download '190711 S&S Suite'.
-Find the executable/binary file 'Sketch&Stitch' and run the Mac OS App. Or you can recomplie the app from 'Source Code macOS'. (Instructions in 'README'). 
 
-Compile the iSO app from 'Source Code iOS'. (Instructions in 'README').
+Mac OS App
+  From the Terminal 
+    sudo gem install cocoapods
+    cd /<path to SketchAndStitch3>
+    pod install
+  From Xcode
+    Compile ⁨190711 S&S Suite⁩ ▸ ⁨Source Code macOS⁩ ▸ ⁨SketchAndStitch3⁩ ▸ SketchAndStitch3.xcworkspace
 
-Run the embroidery automator exe file from 'Bernina Software Automation' in a Windows virtual machine. (Instructions in 'HOWTO.txt' and 'BerninaSoftwareSetup.PNG').
+
+iOS App
+  From the Terminal 
+    sudo gem install cocoapods
+    cd /<path to SketchAndStitchCompanion>
+    pod install
+  From Xcode
+    Compile ⁨190711 S&S Suite⁩ ▸ ⁨Source Code iOS⁩ ▸ ⁨SketchAndStitchCompanion⁩ ▸ SketchAndStitchCompanion.xcworkspace
+
+
+Embroidery automator Appl (Win)
+  Read 190711 S&S Suite⁩ ▸ ⁨Bernina Software Automation⁩ ▸ HOWTO.txt and BerninaSoftwareSetup.PNG
+  Run 190711 S&S Suite⁩ ▸ ⁨Bernina Software Automation⁩ ▸ Bernina Automation.exe
+  
