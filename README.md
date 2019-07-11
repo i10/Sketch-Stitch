@@ -26,25 +26,39 @@ For access to the paper and videos see: https://hci.rwth-aachen.de/sketchstitch
 
 From the 'master' branch, download '190711 S&S Suite'.
 
-Mac OS App
+**Mac OS App**
+
   From the Terminal 
+  
     sudo gem install cocoapods
+    
     cd /<path to SketchAndStitch3>
+    
     pod install
+    
   From Xcode
+  
     Compile ⁨190711 S&S Suite⁩ ▸ ⁨Source Code macOS⁩ ▸ ⁨SketchAndStitch3⁩ ▸ SketchAndStitch3.xcworkspace
 
 
-iOS App
+**iOS App**
+
   From the Terminal 
+  
     sudo gem install cocoapods
+    
     cd /<path to SketchAndStitchCompanion>
+    
     pod install
+    
   From Xcode
+  
     Compile ⁨190711 S&S Suite⁩ ▸ ⁨Source Code iOS⁩ ▸ ⁨SketchAndStitchCompanion⁩ ▸ SketchAndStitchCompanion.xcworkspace
 
 
-Embroidery automator Appl (Win)
+**Embroidery automator Appl (Win)**
+
   Read 190711 S&S Suite⁩ ▸ ⁨Bernina Software Automation⁩ ▸ HOWTO.txt and BerninaSoftwareSetup.PNG
+  
   Run 190711 S&S Suite⁩ ▸ ⁨Bernina Software Automation⁩ ▸ Bernina Automation.exe
   
