@@ -1,0 +1,9 @@
+Steps to make sure the script works:
+
+1. Set Parallels resolution scaling to : "Optimal for Retina".
+2. Share the user folder "/User/Documents/Sketch And Stitch/" within the Parallels Windows configuration.
+3. Put the Keyboard and Mouse Mode in the Parallels Windows configuration to „Gaming Mode“
+4. Make sure the „Sketch And Stitch“ shared folder has the drive letter „Y:“ in Windows on Parallels.
+5. Start the Bernina software and have it on fullscreen.
+
+Run the script and enjoy.

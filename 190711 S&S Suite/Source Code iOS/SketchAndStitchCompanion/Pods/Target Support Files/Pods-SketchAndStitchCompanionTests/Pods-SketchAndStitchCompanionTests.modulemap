@@ -1,0 +1,6 @@
+framework module Pods_SketchAndStitchCompanionTests {
+  umbrella header "Pods-SketchAndStitchCompanionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
