@@ -19,3 +19,11 @@ This application was part of a research project published at ACM CHI 2018.
 ACM Reference Format: Nur Al-huda Hamdan, Simon Voelker, Jan Borchers. 2018. Sketch&Stitch: Interactive Embroidery for E-Textiles. In CHI Conference on Human Factors in Computing Systems Proceedings (CHI 2018), April 21–26, 2018, Montreal QC, Canada. ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3173574.3173656
 
 For access to the paper and videos see: https://hci.rwth-aachen.de/sketchstitch
+
+**Run the apps**
+From the 'master' branch, download '190711 S&S Suite'.
+Find the executable/binary file 'Sketch&Stitch' and run the Mac OS App. Or you can recomplie the app from 'Source Code macOS'. (Instructions in 'README'). 
+
+Compile the iSO app from 'Source Code iOS'. (Instructions in 'README').
+
+Run the embroidery automator exe file from 'Bernina Software Automation' in a Windows virtual machine. (Instructions in 'HOWTO.txt' and 'BerninaSoftwareSetup.PNG').
