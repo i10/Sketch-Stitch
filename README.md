@@ -60,5 +60,5 @@ From the 'master' branch, download '190711 S&S Suite'.
 
   Read 190711 S&S Suite⁩ ▸ ⁨Bernina Software Automation⁩ ▸ HOWTO.txt and BerninaSoftwareSetup.PNG
   
-  Run 190711 S&S Suite⁩ ▸ ⁨Bernina Software Automation⁩ ▸ Bernina Automation.exe
+  Run 190711 S&S Suite⁩ ▸ ⁨Bernina Software Automation⁩ ▸ Bernina Automation.exe on a Windows VM
   
