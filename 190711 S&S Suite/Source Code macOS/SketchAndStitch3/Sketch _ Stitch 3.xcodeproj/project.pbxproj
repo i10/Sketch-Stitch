@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04008D68DA95B4B460F6ADDB /* Pods_Sketch___Stitch_3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614BCCC05337F0FFF80E550E /* Pods_Sketch___Stitch_3Tests.framework */; };
+		1F8344A7AEF92AD9FA5E65DB /* Pods_Sketch___Stitch_3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176D202988707C3C675D8681 /* Pods_Sketch___Stitch_3UITests.framework */; };
+		ED018F1F2266132C00E1513E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED018F1E2266132C00E1513E /* CustomButton.swift */; };
+		ED12FB01226341160086BB88 /* PresetTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12FB00226341160086BB88 /* PresetTableController.swift */; };
+		ED12FB03226341780086BB88 /* PresetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12FB02226341780086BB88 /* PresetCell.swift */; };
+		ED2705C0225E964100B433F1 /* LayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2705BF225E964100B433F1 /* LayerCell.swift */; };
+		ED278A7C2272F7E10000D2CF /* IPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED278A7B2272F7E10000D2CF /* IPHandler.swift */; };
+		ED27AD3922762EA200C52DDD /* ColorCollectionScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27AD3822762EA200C52DDD /* ColorCollectionScrollView.swift */; };
+		ED27AD3B22762EC200C52DDD /* ColorCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27AD3A22762EC200C52DDD /* ColorCollectionItem.swift */; };
+		ED27AD3D22762EEE00C52DDD /* ColorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27AD3C22762EEE00C52DDD /* ColorCollection.swift */; };
+		ED27AD3F22762F4100C52DDD /* ColorCollectionItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED27AD3E22762F4100C52DDD /* ColorCollectionItem.xib */; };
+		ED3B4B54225A6467001BD684 /* ConnectOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3B4B53225A6467001BD684 /* ConnectOverlay.swift */; };
+		ED3B4B57225A6D57001BD684 /* OpenImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3B4B55225A6D57001BD684 /* OpenImageOverlay.swift */; };
+		ED3B4B5A225AAE84001BD684 /* ExportOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3B4B59225AAE84001BD684 /* ExportOverlay.swift */; };
+		ED426509225CE47100615B48 /* ExportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED426508225CE47100615B48 /* ExportButton.swift */; };
+		ED42650B225CE61000615B48 /* ConvertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42650A225CE61000615B48 /* ConvertButton.swift */; };
+		ED54B889226A793C002A3B19 /* PixelFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54B888226A793C002A3B19 /* PixelFormat.swift */; };
+		ED54B88B226A7991002A3B19 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54B88A226A7991002A3B19 /* Processor.swift */; };
+		ED54B88D226A79AE002A3B19 /* Filter.metal in Sources */ = {isa = PBXBuildFile; fileRef = ED54B88C226A79AE002A3B19 /* Filter.metal */; };
+		ED54B88F226A7C81002A3B19 /* Filter.metallib in Resources */ = {isa = PBXBuildFile; fileRef = ED54B88E226A7C81002A3B19 /* Filter.metallib */; };
+		ED7A3C992274B0120089F7FC /* ColorProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A3C982274B0120089F7FC /* ColorProcessor.swift */; };
+		ED828541225FE5BF00E78552 /* LayerTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED828540225FE5BF00E78552 /* LayerTableController.swift */; };
+		ED8DDFA22265245400CBDD27 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8DDFA02265245400CBDD27 /* SliderCell.swift */; };
+		ED8DDFA32265245400CBDD27 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8DDFA12265245400CBDD27 /* Slider.swift */; };
+		ED931B9822574E6A0039A320 /* ExportButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED931B9722574E6A0039A320 /* ExportButtonCell.swift */; };
+		ED931BA022576A000039A320 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED931B9F22576A000039A320 /* BackgroundView.swift */; };
+		ED931BA5225789520039A320 /* VerticalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED931BA4225789520039A320 /* VerticalLine.swift */; };
+		ED931BA722578FF90039A320 /* HorizontalSidebarLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED931BA622578FF90039A320 /* HorizontalSidebarLine.swift */; };
+		ED931BA9225791B60039A320 /* HorizontalToolbarLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED931BA8225791B60039A320 /* HorizontalToolbarLine.swift */; };
+		ED931BAB22579AD70039A320 /* CustomSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED931BAA22579AD70039A320 /* CustomSegmentedCell.swift */; };
+		ED979D57225BC765002335A6 /* CompareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED979D56225BC765002335A6 /* CompareButton.swift */; };
+		ED979D59225BCB31002335A6 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED979D58225BCB31002335A6 /* IntroView.swift */; };
+		EDA913B922574485007E9A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA913B822574485007E9A5A /* AppDelegate.swift */; };
+		EDA913BB22574485007E9A5A /* AdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA913BA22574485007E9A5A /* AdvancedViewController.swift */; };
+		EDA913BD22574485007E9A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA913BC22574485007E9A5A /* Assets.xcassets */; };
+		EDA913C022574485007E9A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA913BE22574485007E9A5A /* Main.storyboard */; };
+		EDA913CC22574485007E9A5A /* SketchAndStitch3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA913CB22574485007E9A5A /* SketchAndStitch3Tests.swift */; };
+		EDA913D722574486007E9A5A /* SketchAndStitch3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA913D622574486007E9A5A /* SketchAndStitch3UITests.swift */; };
+		EDA913E522574B5E007E9A5A /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA913E422574B5E007E9A5A /* WindowController.swift */; };
+		EDB66DF32258BE65001C6900 /* OpenButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66DF22258BE65001C6900 /* OpenButtonCell.swift */; };
+		EDB66DF52258C657001C6900 /* ToolbarIconButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66DF42258C657001C6900 /* ToolbarIconButtonCell.swift */; };
+		EDB66DF9225954A5001C6900 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66DF8225954A5001C6900 /* CustomScrollView.swift */; };
+		EDCA9C81228DAA11002FA1AB /* EraserButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA9C80228DAA11002FA1AB /* EraserButton.swift */; };
+		EDCDD921225E0A810004E21B /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDD920225E0A810004E21B /* CustomSegmentedControl.swift */; };
+		EDCF67372261255300749325 /* Tickbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF67362261255300749325 /* Tickbox.swift */; };
+		EDD0CDBA225BDFE400F7DC59 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0CDB9225BDFE400F7DC59 /* ConnectButton.swift */; };
+		EDD0CDBC225BE5A600F7DC59 /* OpenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0CDBB225BE5A600F7DC59 /* OpenButton.swift */; };
+		EDD0CDBE225BF11B00F7DC59 /* RecieveServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0CDBD225BF11B00F7DC59 /* RecieveServer.swift */; };
+		EDE8CD26227B0B6B00A37D06 /* ConvertOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8CD25227B0B6B00A37D06 /* ConvertOverlay.swift */; };
+		EDF477EF228DFE07006AEF47 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF477EE228DFE07006AEF47 /* DrawingView.swift */; };
+		F481168A7D75570D421D1ABD /* Pods_Sketch___Stitch_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3D60EE121508AAC8BE726F /* Pods_Sketch___Stitch_3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA913C822574485007E9A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA913AD22574485007E9A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA913B422574485007E9A5A;
+			remoteInfo = SketchAndStitch3;
+		};
+		EDA913D322574486007E9A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA913AD22574485007E9A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA913B422574485007E9A5A;
+			remoteInfo = SketchAndStitch3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F4CF4A64B2B6559B1C0E52 /* Pods-Sketch & Stitch 3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sketch & Stitch 3UITests.release.xcconfig"; path = "Target Support Files/Pods-Sketch & Stitch 3UITests/Pods-Sketch & Stitch 3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		176D202988707C3C675D8681 /* Pods_Sketch___Stitch_3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Sketch___Stitch_3UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF8578B156349A00A39AC69 /* Pods-Sketch & Stitch 3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sketch & Stitch 3.debug.xcconfig"; path = "Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3EF0C4A1854EDEA9D74DB9 /* Pods-Sketch & Stitch 3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sketch & Stitch 3UITests.debug.xcconfig"; path = "Target Support Files/Pods-Sketch & Stitch 3UITests/Pods-Sketch & Stitch 3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CE6F6FE11E05FCD863E0D4F /* Pods-Sketch & Stitch 3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sketch & Stitch 3Tests.release.xcconfig"; path = "Target Support Files/Pods-Sketch & Stitch 3Tests/Pods-Sketch & Stitch 3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6013A612362A81340BD5E582 /* Pods-Sketch & Stitch 3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sketch & Stitch 3.release.xcconfig"; path = "Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3.release.xcconfig"; sourceTree = "<group>"; };
+		614BCCC05337F0FFF80E550E /* Pods_Sketch___Stitch_3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Sketch___Stitch_3Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3D60EE121508AAC8BE726F /* Pods_Sketch___Stitch_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Sketch___Stitch_3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED018F1E2266132C00E1513E /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		ED12FB00226341160086BB88 /* PresetTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetTableController.swift; sourceTree = "<group>"; };
+		ED12FB02226341780086BB88 /* PresetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetCell.swift; sourceTree = "<group>"; };
+		ED2705BF225E964100B433F1 /* LayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerCell.swift; sourceTree = "<group>"; };
+		ED278A7B2272F7E10000D2CF /* IPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPHandler.swift; sourceTree = "<group>"; };
+		ED27AD3822762EA200C52DDD /* ColorCollectionScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionScrollView.swift; sourceTree = "<group>"; };
+		ED27AD3A22762EC200C52DDD /* ColorCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionItem.swift; sourceTree = "<group>"; };
+		ED27AD3C22762EEE00C52DDD /* ColorCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollection.swift; sourceTree = "<group>"; };
+		ED27AD3E22762F4100C52DDD /* ColorCollectionItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorCollectionItem.xib; sourceTree = "<group>"; };
+		ED3B4B53225A6467001BD684 /* ConnectOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectOverlay.swift; sourceTree = "<group>"; };
+		ED3B4B55225A6D57001BD684 /* OpenImageOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenImageOverlay.swift; sourceTree = "<group>"; };
+		ED3B4B59225AAE84001BD684 /* ExportOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportOverlay.swift; sourceTree = "<group>"; };
+		ED426508225CE47100615B48 /* ExportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportButton.swift; sourceTree = "<group>"; };
+		ED42650A225CE61000615B48 /* ConvertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertButton.swift; sourceTree = "<group>"; };
+		ED54B888226A793C002A3B19 /* PixelFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelFormat.swift; sourceTree = "<group>"; };
+		ED54B88A226A7991002A3B19 /* Processor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
+		ED54B88C226A79AE002A3B19 /* Filter.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Filter.metal; sourceTree = "<group>"; };
+		ED54B88E226A7C81002A3B19 /* Filter.metallib */ = {isa = PBXFileReference; lastKnownFileType = "archive.metal-library"; path = Filter.metallib; sourceTree = "<group>"; };
+		ED7A3C982274B0120089F7FC /* ColorProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProcessor.swift; sourceTree = "<group>"; };
+		ED828540225FE5BF00E78552 /* LayerTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerTableController.swift; sourceTree = "<group>"; };
+		ED8DDFA02265245400CBDD27 /* SliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		ED8DDFA12265245400CBDD27 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		ED931B9722574E6A0039A320 /* ExportButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportButtonCell.swift; sourceTree = "<group>"; };
+		ED931B9F22576A000039A320 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		ED931BA4225789520039A320 /* VerticalLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLine.swift; sourceTree = "<group>"; };
+		ED931BA622578FF90039A320 /* HorizontalSidebarLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSidebarLine.swift; sourceTree = "<group>"; };
+		ED931BA8225791B60039A320 /* HorizontalToolbarLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalToolbarLine.swift; sourceTree = "<group>"; };
+		ED931BAA22579AD70039A320 /* CustomSegmentedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedCell.swift; sourceTree = "<group>"; };
+		ED979D56225BC765002335A6 /* CompareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareButton.swift; sourceTree = "<group>"; };
+		ED979D58225BCB31002335A6 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		EDA913B522574485007E9A5A /* Sketch & Stitch 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sketch & Stitch 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA913B822574485007E9A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA913BA22574485007E9A5A /* AdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedViewController.swift; sourceTree = "<group>"; };
+		EDA913BC22574485007E9A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA913BF22574485007E9A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA913C122574485007E9A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA913C222574485007E9A5A /* SketchAndStitch3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SketchAndStitch3.entitlements; sourceTree = "<group>"; };
+		EDA913C722574485007E9A5A /* Sketch & Stitch 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sketch & Stitch 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA913CB22574485007E9A5A /* SketchAndStitch3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchAndStitch3Tests.swift; sourceTree = "<group>"; };
+		EDA913CD22574486007E9A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA913D222574486007E9A5A /* Sketch & Stitch 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sketch & Stitch 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA913D622574486007E9A5A /* SketchAndStitch3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchAndStitch3UITests.swift; sourceTree = "<group>"; };
+		EDA913D822574486007E9A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA913E422574B5E007E9A5A /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		EDB66DF22258BE65001C6900 /* OpenButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenButtonCell.swift; sourceTree = "<group>"; };
+		EDB66DF42258C657001C6900 /* ToolbarIconButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarIconButtonCell.swift; sourceTree = "<group>"; };
+		EDB66DF8225954A5001C6900 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		EDCA9C80228DAA11002FA1AB /* EraserButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraserButton.swift; sourceTree = "<group>"; };
+		EDCDD920225E0A810004E21B /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		EDCF67362261255300749325 /* Tickbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tickbox.swift; sourceTree = "<group>"; };
+		EDD0CDB9225BDFE400F7DC59 /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		EDD0CDBB225BE5A600F7DC59 /* OpenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenButton.swift; sourceTree = "<group>"; };
+		EDD0CDBD225BF11B00F7DC59 /* RecieveServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieveServer.swift; sourceTree = "<group>"; };
+		EDE8CD25227B0B6B00A37D06 /* ConvertOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertOverlay.swift; sourceTree = "<group>"; };
+		EDF477EE228DFE07006AEF47 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		EE55BF1C2F2CE3877D09F195 /* Pods-Sketch & Stitch 3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sketch & Stitch 3Tests.debug.xcconfig"; path = "Target Support Files/Pods-Sketch & Stitch 3Tests/Pods-Sketch & Stitch 3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA913B222574485007E9A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F481168A7D75570D421D1ABD /* Pods_Sketch___Stitch_3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA913C422574485007E9A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04008D68DA95B4B460F6ADDB /* Pods_Sketch___Stitch_3Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA913CF22574486007E9A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8344A7AEF92AD9FA5E65DB /* Pods_Sketch___Stitch_3UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467E5E28A73C5D2A1DE6EFF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BF8578B156349A00A39AC69 /* Pods-Sketch & Stitch 3.debug.xcconfig */,
+				6013A612362A81340BD5E582 /* Pods-Sketch & Stitch 3.release.xcconfig */,
+				EE55BF1C2F2CE3877D09F195 /* Pods-Sketch & Stitch 3Tests.debug.xcconfig */,
+				5CE6F6FE11E05FCD863E0D4F /* Pods-Sketch & Stitch 3Tests.release.xcconfig */,
+				4C3EF0C4A1854EDEA9D74DB9 /* Pods-Sketch & Stitch 3UITests.debug.xcconfig */,
+				05F4CF4A64B2B6559B1C0E52 /* Pods-Sketch & Stitch 3UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED018F172266111300E1513E /* Window Decorations */ = {
+			isa = PBXGroup;
+			children = (
+				EDA913E422574B5E007E9A5A /* WindowController.swift */,
+				ED931BA4225789520039A320 /* VerticalLine.swift */,
+				ED931BA622578FF90039A320 /* HorizontalSidebarLine.swift */,
+				ED931BA8225791B60039A320 /* HorizontalToolbarLine.swift */,
+				ED931B9F22576A000039A320 /* BackgroundView.swift */,
+			);
+			path = "Window Decorations";
+			sourceTree = "<group>";
+		};
+		ED018F182266121C00E1513E /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				EDB66DF42258C657001C6900 /* ToolbarIconButtonCell.swift */,
+				EDCDD920225E0A810004E21B /* CustomSegmentedControl.swift */,
+				ED931BAA22579AD70039A320 /* CustomSegmentedCell.swift */,
+				EDCA9C80228DAA11002FA1AB /* EraserButton.swift */,
+				ED42650A225CE61000615B48 /* ConvertButton.swift */,
+				EDE8CD25227B0B6B00A37D06 /* ConvertOverlay.swift */,
+				ED426508225CE47100615B48 /* ExportButton.swift */,
+				ED931B9722574E6A0039A320 /* ExportButtonCell.swift */,
+				ED3B4B59225AAE84001BD684 /* ExportOverlay.swift */,
+				ED979D56225BC765002335A6 /* CompareButton.swift */,
+				EDD0CDB9225BDFE400F7DC59 /* ConnectButton.swift */,
+				ED3B4B53225A6467001BD684 /* ConnectOverlay.swift */,
+				EDD0CDBD225BF11B00F7DC59 /* RecieveServer.swift */,
+				EDD0CDBB225BE5A600F7DC59 /* OpenButton.swift */,
+				EDB66DF22258BE65001C6900 /* OpenButtonCell.swift */,
+				ED3B4B55225A6D57001BD684 /* OpenImageOverlay.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		ED018F192266126B00E1513E /* Advanced View */ = {
+			isa = PBXGroup;
+			children = (
+				EDA913BA22574485007E9A5A /* AdvancedViewController.swift */,
+				EDB66DF8225954A5001C6900 /* CustomScrollView.swift */,
+				ED12FB00226341160086BB88 /* PresetTableController.swift */,
+				ED12FB02226341780086BB88 /* PresetCell.swift */,
+				ED828540225FE5BF00E78552 /* LayerTableController.swift */,
+				ED2705BF225E964100B433F1 /* LayerCell.swift */,
+				ED27AD3822762EA200C52DDD /* ColorCollectionScrollView.swift */,
+				ED27AD3E22762F4100C52DDD /* ColorCollectionItem.xib */,
+				ED27AD3A22762EC200C52DDD /* ColorCollectionItem.swift */,
+				ED27AD3C22762EEE00C52DDD /* ColorCollection.swift */,
+				EDF477EE228DFE07006AEF47 /* DrawingView.swift */,
+			);
+			path = "Advanced View";
+			sourceTree = "<group>";
+		};
+		ED018F1B226612AD00E1513E /* Custom UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				ED018F1E2266132C00E1513E /* CustomButton.swift */,
+				EDCF67362261255300749325 /* Tickbox.swift */,
+				ED8DDFA12265245400CBDD27 /* Slider.swift */,
+				ED8DDFA02265245400CBDD27 /* SliderCell.swift */,
+				ED979D58225BCB31002335A6 /* IntroView.swift */,
+			);
+			path = "Custom UI Elements";
+			sourceTree = "<group>";
+		};
+		ED54B887226A7924002A3B19 /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				ED54B888226A793C002A3B19 /* PixelFormat.swift */,
+				ED54B88A226A7991002A3B19 /* Processor.swift */,
+				ED7A3C982274B0120089F7FC /* ColorProcessor.swift */,
+				ED54B88E226A7C81002A3B19 /* Filter.metallib */,
+				ED54B88C226A79AE002A3B19 /* Filter.metal */,
+				ED278A7B2272F7E10000D2CF /* IPHandler.swift */,
+			);
+			path = "Data Types";
+			sourceTree = "<group>";
+		};
+		EDA913AC22574484007E9A5A = {
+			isa = PBXGroup;
+			children = (
+				EDA913B722574485007E9A5A /* SketchAndStitch3 */,
+				EDA913CA22574485007E9A5A /* SketchAndStitch3Tests */,
+				EDA913D522574486007E9A5A /* SketchAndStitch3UITests */,
+				EDA913B622574485007E9A5A /* Products */,
+				467E5E28A73C5D2A1DE6EFF4 /* Pods */,
+				F563D5CF1AFFB803398B3598 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA913B622574485007E9A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA913B522574485007E9A5A /* Sketch & Stitch 3.app */,
+				EDA913C722574485007E9A5A /* Sketch & Stitch 3Tests.xctest */,
+				EDA913D222574486007E9A5A /* Sketch & Stitch 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA913B722574485007E9A5A /* SketchAndStitch3 */ = {
+			isa = PBXGroup;
+			children = (
+				EDA913BE22574485007E9A5A /* Main.storyboard */,
+				EDA913B822574485007E9A5A /* AppDelegate.swift */,
+				ED018F192266126B00E1513E /* Advanced View */,
+				ED018F1B226612AD00E1513E /* Custom UI Elements */,
+				ED018F182266121C00E1513E /* Toolbar */,
+				ED54B887226A7924002A3B19 /* Data Types */,
+				ED018F172266111300E1513E /* Window Decorations */,
+				EDA913BC22574485007E9A5A /* Assets.xcassets */,
+				EDA913C122574485007E9A5A /* Info.plist */,
+				EDA913C222574485007E9A5A /* SketchAndStitch3.entitlements */,
+			);
+			path = SketchAndStitch3;
+			sourceTree = "<group>";
+		};
+		EDA913CA22574485007E9A5A /* SketchAndStitch3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA913CB22574485007E9A5A /* SketchAndStitch3Tests.swift */,
+				EDA913CD22574486007E9A5A /* Info.plist */,
+			);
+			path = SketchAndStitch3Tests;
+			sourceTree = "<group>";
+		};
+		EDA913D522574486007E9A5A /* SketchAndStitch3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA913D622574486007E9A5A /* SketchAndStitch3UITests.swift */,
+				EDA913D822574486007E9A5A /* Info.plist */,
+			);
+			path = SketchAndStitch3UITests;
+			sourceTree = "<group>";
+		};
+		F563D5CF1AFFB803398B3598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A3D60EE121508AAC8BE726F /* Pods_Sketch___Stitch_3.framework */,
+				614BCCC05337F0FFF80E550E /* Pods_Sketch___Stitch_3Tests.framework */,
+				176D202988707C3C675D8681 /* Pods_Sketch___Stitch_3UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA913B422574485007E9A5A /* Sketch & Stitch 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA913DB22574486007E9A5A /* Build configuration list for PBXNativeTarget "Sketch & Stitch 3" */;
+			buildPhases = (
+				181396604EDD14F72BB394A0 /* [CP] Check Pods Manifest.lock */,
+				EDA913B122574485007E9A5A /* Sources */,
+				EDA913B222574485007E9A5A /* Frameworks */,
+				EDA913B322574485007E9A5A /* Resources */,
+				0044ECC7D56F95F080F63ABD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sketch & Stitch 3";
+			productName = SketchAndStitch3;
+			productReference = EDA913B522574485007E9A5A /* Sketch & Stitch 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA913C622574485007E9A5A /* Sketch & Stitch 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA913DE22574486007E9A5A /* Build configuration list for PBXNativeTarget "Sketch & Stitch 3Tests" */;
+			buildPhases = (
+				7F2EC696E96F4CD51EE45862 /* [CP] Check Pods Manifest.lock */,
+				EDA913C322574485007E9A5A /* Sources */,
+				EDA913C422574485007E9A5A /* Frameworks */,
+				EDA913C522574485007E9A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA913C922574485007E9A5A /* PBXTargetDependency */,
+			);
+			name = "Sketch & Stitch 3Tests";
+			productName = SketchAndStitch3Tests;
+			productReference = EDA913C722574485007E9A5A /* Sketch & Stitch 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA913D122574486007E9A5A /* Sketch & Stitch 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA913E122574486007E9A5A /* Build configuration list for PBXNativeTarget "Sketch & Stitch 3UITests" */;
+			buildPhases = (
+				89586DFFF152173AD79C1B79 /* [CP] Check Pods Manifest.lock */,
+				EDA913CE22574486007E9A5A /* Sources */,
+				EDA913CF22574486007E9A5A /* Frameworks */,
+				EDA913D022574486007E9A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA913D422574486007E9A5A /* PBXTargetDependency */,
+			);
+			name = "Sketch & Stitch 3UITests";
+			productName = SketchAndStitch3UITests;
+			productReference = EDA913D222574486007E9A5A /* Sketch & Stitch 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA913AD22574485007E9A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Kirill Timchenko";
+				TargetAttributes = {
+					EDA913B422574485007E9A5A = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					EDA913C622574485007E9A5A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EDA913B422574485007E9A5A;
+					};
+					EDA913D122574486007E9A5A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EDA913B422574485007E9A5A;
+					};
+				};
+			};
+			buildConfigurationList = EDA913B022574485007E9A5A /* Build configuration list for PBXProject "Sketch _ Stitch 3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA913AC22574484007E9A5A;
+			productRefGroup = EDA913B622574485007E9A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA913B422574485007E9A5A /* Sketch & Stitch 3 */,
+				EDA913C622574485007E9A5A /* Sketch & Stitch 3Tests */,
+				EDA913D122574486007E9A5A /* Sketch & Stitch 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA913B322574485007E9A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA913BD22574485007E9A5A /* Assets.xcassets in Resources */,
+				ED54B88F226A7C81002A3B19 /* Filter.metallib in Resources */,
+				ED27AD3F22762F4100C52DDD /* ColorCollectionItem.xib in Resources */,
+				EDA913C022574485007E9A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA913C522574485007E9A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA913D022574486007E9A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0044ECC7D56F95F080F63ABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		181396604EDD14F72BB394A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sketch & Stitch 3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2EC696E96F4CD51EE45862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sketch & Stitch 3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89586DFFF152173AD79C1B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sketch & Stitch 3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA913B122574485007E9A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED12FB01226341160086BB88 /* PresetTableController.swift in Sources */,
+				ED27AD3922762EA200C52DDD /* ColorCollectionScrollView.swift in Sources */,
+				EDA913BB22574485007E9A5A /* AdvancedViewController.swift in Sources */,
+				EDA913B922574485007E9A5A /* AppDelegate.swift in Sources */,
+				ED8DDFA22265245400CBDD27 /* SliderCell.swift in Sources */,
+				ED42650B225CE61000615B48 /* ConvertButton.swift in Sources */,
+				ED3B4B54225A6467001BD684 /* ConnectOverlay.swift in Sources */,
+				ED54B88B226A7991002A3B19 /* Processor.swift in Sources */,
+				ED3B4B5A225AAE84001BD684 /* ExportOverlay.swift in Sources */,
+				ED979D57225BC765002335A6 /* CompareButton.swift in Sources */,
+				EDD0CDBC225BE5A600F7DC59 /* OpenButton.swift in Sources */,
+				EDA913E522574B5E007E9A5A /* WindowController.swift in Sources */,
+				EDD0CDBE225BF11B00F7DC59 /* RecieveServer.swift in Sources */,
+				ED12FB03226341780086BB88 /* PresetCell.swift in Sources */,
+				EDCA9C81228DAA11002FA1AB /* EraserButton.swift in Sources */,
+				EDCF67372261255300749325 /* Tickbox.swift in Sources */,
+				ED931BA722578FF90039A320 /* HorizontalSidebarLine.swift in Sources */,
+				ED931BAB22579AD70039A320 /* CustomSegmentedCell.swift in Sources */,
+				ED931BA022576A000039A320 /* BackgroundView.swift in Sources */,
+				ED931B9822574E6A0039A320 /* ExportButtonCell.swift in Sources */,
+				EDB66DF52258C657001C6900 /* ToolbarIconButtonCell.swift in Sources */,
+				ED3B4B57225A6D57001BD684 /* OpenImageOverlay.swift in Sources */,
+				EDD0CDBA225BDFE400F7DC59 /* ConnectButton.swift in Sources */,
+				EDE8CD26227B0B6B00A37D06 /* ConvertOverlay.swift in Sources */,
+				ED54B88D226A79AE002A3B19 /* Filter.metal in Sources */,
+				ED7A3C992274B0120089F7FC /* ColorProcessor.swift in Sources */,
+				ED979D59225BCB31002335A6 /* IntroView.swift in Sources */,
+				ED54B889226A793C002A3B19 /* PixelFormat.swift in Sources */,
+				ED426509225CE47100615B48 /* ExportButton.swift in Sources */,
+				EDF477EF228DFE07006AEF47 /* DrawingView.swift in Sources */,
+				ED931BA9225791B60039A320 /* HorizontalToolbarLine.swift in Sources */,
+				ED27AD3D22762EEE00C52DDD /* ColorCollection.swift in Sources */,
+				EDCDD921225E0A810004E21B /* CustomSegmentedControl.swift in Sources */,
+				ED2705C0225E964100B433F1 /* LayerCell.swift in Sources */,
+				ED828541225FE5BF00E78552 /* LayerTableController.swift in Sources */,
+				ED931BA5225789520039A320 /* VerticalLine.swift in Sources */,
+				ED018F1F2266132C00E1513E /* CustomButton.swift in Sources */,
+				EDB66DF32258BE65001C6900 /* OpenButtonCell.swift in Sources */,
+				EDB66DF9225954A5001C6900 /* CustomScrollView.swift in Sources */,
+				ED278A7C2272F7E10000D2CF /* IPHandler.swift in Sources */,
+				ED27AD3B22762EC200C52DDD /* ColorCollectionItem.swift in Sources */,
+				ED8DDFA32265245400CBDD27 /* Slider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA913C322574485007E9A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA913CC22574485007E9A5A /* SketchAndStitch3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA913CE22574486007E9A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA913D722574486007E9A5A /* SketchAndStitch3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA913C922574485007E9A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA913B422574485007E9A5A /* Sketch & Stitch 3 */;
+			targetProxy = EDA913C822574485007E9A5A /* PBXContainerItemProxy */;
+		};
+		EDA913D422574486007E9A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA913B422574485007E9A5A /* Sketch & Stitch 3 */;
+			targetProxy = EDA913D322574486007E9A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA913BE22574485007E9A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA913BF22574485007E9A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA913D922574486007E9A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA913DA22574486007E9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EDA913DC22574486007E9A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF8578B156349A00A39AC69 /* Pods-Sketch & Stitch 3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z53346Y4Z8;
+				INFOPLIST_FILE = SketchAndStitch3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timchenko.SketchAndStitch3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EDA913DD22574486007E9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6013A612362A81340BD5E582 /* Pods-Sketch & Stitch 3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z53346Y4Z8;
+				INFOPLIST_FILE = SketchAndStitch3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timchenko.SketchAndStitch3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		EDA913DF22574486007E9A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE55BF1C2F2CE3877D09F195 /* Pods-Sketch & Stitch 3Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q7GN99S8F;
+				INFOPLIST_FILE = SketchAndStitch3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timchenko.SketchAndStitch3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sketch & Stitch 3.app/Contents/MacOS/Sketch & Stitch 3";
+			};
+			name = Debug;
+		};
+		EDA913E022574486007E9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE6F6FE11E05FCD863E0D4F /* Pods-Sketch & Stitch 3Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q7GN99S8F;
+				INFOPLIST_FILE = SketchAndStitch3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timchenko.SketchAndStitch3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sketch & Stitch 3.app/Contents/MacOS/Sketch & Stitch 3";
+			};
+			name = Release;
+		};
+		EDA913E222574486007E9A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3EF0C4A1854EDEA9D74DB9 /* Pods-Sketch & Stitch 3UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q7GN99S8F;
+				INFOPLIST_FILE = SketchAndStitch3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timchenko.SketchAndStitch3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = SketchAndStitch3;
+			};
+			name = Debug;
+		};
+		EDA913E322574486007E9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F4CF4A64B2B6559B1C0E52 /* Pods-Sketch & Stitch 3UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q7GN99S8F;
+				INFOPLIST_FILE = SketchAndStitch3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timchenko.SketchAndStitch3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = SketchAndStitch3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA913B022574485007E9A5A /* Build configuration list for PBXProject "Sketch _ Stitch 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA913D922574486007E9A5A /* Debug */,
+				EDA913DA22574486007E9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA913DB22574486007E9A5A /* Build configuration list for PBXNativeTarget "Sketch & Stitch 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA913DC22574486007E9A5A /* Debug */,
+				EDA913DD22574486007E9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA913DE22574486007E9A5A /* Build configuration list for PBXNativeTarget "Sketch & Stitch 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA913DF22574486007E9A5A /* Debug */,
+				EDA913E022574486007E9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA913E122574486007E9A5A /* Build configuration list for PBXNativeTarget "Sketch & Stitch 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA913E222574486007E9A5A /* Debug */,
+				EDA913E322574486007E9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA913AD22574485007E9A5A /* Project object */;
+}

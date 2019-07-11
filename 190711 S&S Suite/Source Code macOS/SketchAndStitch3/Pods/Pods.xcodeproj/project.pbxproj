@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00825C45590496AB142E1F5CF75FC997 /* Pods-Sketch & Stitch 3Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F3FF6D816F0F0FE0A0014D1E4870F6 /* Pods-Sketch & Stitch 3Tests-dummy.m */; };
+		056041E1A29FED08F2747BAA2E04D7B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		0BAD55BB5438E7B6BC713A382B0F43DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		3084175D220D90CA7DD1B3517DB51E9E /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0045547D51459BA376DBE0161C36185 /* Socket.swift */; };
+		3697872CA6E047A4514CF353C0BADF95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		369C0239A1444373ED519CFAF57E3A2E /* BlueSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A72F0F8D06160E1F8C914484130F0B /* BlueSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374FA8583271D8C2B267A3D9A49BA6C9 /* Pods-Sketch & Stitch 3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC088D8856D19325A7AE270D8131BC6D /* Pods-Sketch & Stitch 3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562806373A305C968A3A5E4FBC0B2A25 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82785AAAC92988135C69B51F1C99F6 /* SocketProtocols.swift */; };
+		57F8F94D0E28EC4066168DBA1319706E /* Pods-Sketch & Stitch 3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AABEF87E1CCEF14EC037B463D6007C18 /* Pods-Sketch & Stitch 3-dummy.m */; };
+		58046DA3BF9C45D42008153A87AA6D5E /* BlueSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C18D7CCA7B3A52BEA6C992F22771629 /* BlueSocket-dummy.m */; };
+		5DC7921EFB429FC6B3B5AA8D5EDD1BE7 /* Pods-Sketch & Stitch 3Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CFA2DC6EBE003493AED4E85F680CED /* Pods-Sketch & Stitch 3Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0EC3C91E39A8541AAAF4A78018509E /* Pods-Sketch & Stitch 3UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CEC35D9B46DD1754D1382006A746A9 /* Pods-Sketch & Stitch 3UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B84BFB4C8DE7978ED4D00C87DF70841 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		B70AC7195D9907F2B277EFA20EF424B7 /* Pods-Sketch & Stitch 3UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C752D5C2109A133EFFA6007A573D3925 /* Pods-Sketch & Stitch 3UITests-dummy.m */; };
+		D3EE28067971701DADE88A46663B366D /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C4CAA4BA487606CACD71C58FC6BBE /* SocketUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F173819B182F254A460D17F543617D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 358D9EE714CD3EE356D73663403C171B;
+			remoteInfo = "Pods-Sketch & Stitch 3";
+		};
+		B7CCCB63AACDFCEBADFA7311D564136D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 358D9EE714CD3EE356D73663403C171B;
+			remoteInfo = "Pods-Sketch & Stitch 3";
+		};
+		F08F14BCBD0788E5D8BC2645F5513DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9717BE7FCECEF299173A5D71C18B19F5;
+			remoteInfo = BlueSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CEC35D9B46DD1754D1382006A746A9 /* Pods-Sketch & Stitch 3UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sketch & Stitch 3UITests-umbrella.h"; sourceTree = "<group>"; };
+		049078318C7B4E925E4A9298E13ADEC3 /* Pods-Sketch & Stitch 3UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sketch & Stitch 3UITests-Info.plist"; sourceTree = "<group>"; };
+		0B82785AAAC92988135C69B51F1C99F6 /* SocketProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketProtocols.swift; path = Sources/Socket/SocketProtocols.swift; sourceTree = "<group>"; };
+		0B940406289430F4F41AF26079E1E64F /* BlueSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-prefix.pch"; sourceTree = "<group>"; };
+		0D32BE0BEB99FCC637DD8E9505A3CA28 /* Pods-Sketch & Stitch 3UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sketch & Stitch 3UITests.modulemap"; sourceTree = "<group>"; };
+		125894BDD60DA2D4A9D954E110D37FBB /* Pods-Sketch & Stitch 3Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sketch & Stitch 3Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D9E1D400E435D7BAA026B8C86283A80 /* BlueSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlueSocket.modulemap; sourceTree = "<group>"; };
+		22B8F874D95106C316441CF1CE9DA2B0 /* Pods-Sketch & Stitch 3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sketch & Stitch 3-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D7D93D80B4E9F088736D5CA9367E3DD /* Pods-Sketch & Stitch 3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sketch & Stitch 3-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3043F3A7841F26766AF03F7A9722274E /* Pods-Sketch & Stitch 3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sketch & Stitch 3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		33A72F0F8D06160E1F8C914484130F0B /* BlueSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-umbrella.h"; sourceTree = "<group>"; };
+		47330C0CA64E51E176E239D88FA5081C /* Pods-Sketch & Stitch 3UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sketch & Stitch 3UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		495C4CAA4BA487606CACD71C58FC6BBE /* SocketUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketUtils.swift; path = Sources/Socket/SocketUtils.swift; sourceTree = "<group>"; };
+		4F0E48C7BDED353DF2558F1A34E54435 /* BlueSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlueSocket-Info.plist"; sourceTree = "<group>"; };
+		51547208E9BA807703ED724595E2562D /* Pods_Sketch___Stitch_3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sketch___Stitch_3UITests.framework; path = "Pods-Sketch & Stitch 3UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5956502E44A0ECB527523122EC61B8F5 /* Pods-Sketch & Stitch 3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sketch & Stitch 3-Info.plist"; sourceTree = "<group>"; };
+		5F215959FEE92F25E038B46BE891F114 /* Pods-Sketch & Stitch 3UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sketch & Stitch 3UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F7DE5DCC0F5DF2F9EC043329AA94EE8 /* Pods_Sketch___Stitch_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sketch___Stitch_3.framework; path = "Pods-Sketch & Stitch 3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A19E80FC8D299C28DC76F15536C576 /* BlueSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.xcconfig; sourceTree = "<group>"; };
+		8C18D7CCA7B3A52BEA6C992F22771629 /* BlueSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueSocket-dummy.m"; sourceTree = "<group>"; };
+		8DECF31FA48151E7BDBD7F9FEC59EF7D /* Pods-Sketch & Stitch 3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sketch & Stitch 3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90338516E1EE6C36937E439C7345ED17 /* Pods-Sketch & Stitch 3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sketch & Stitch 3.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A378697BD4FF6090D9D0A7544825F089 /* Pods-Sketch & Stitch 3-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sketch & Stitch 3-frameworks.sh"; sourceTree = "<group>"; };
+		A7566F2E5F27254474DAFDBEE8B09D0C /* Pods-Sketch & Stitch 3Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sketch & Stitch 3Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AABEF87E1CCEF14EC037B463D6007C18 /* Pods-Sketch & Stitch 3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sketch & Stitch 3-dummy.m"; sourceTree = "<group>"; };
+		B0F3FF6D816F0F0FE0A0014D1E4870F6 /* Pods-Sketch & Stitch 3Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sketch & Stitch 3Tests-dummy.m"; sourceTree = "<group>"; };
+		B4CBCE2FA0CB6CE07F94087A00D5933D /* Pods-Sketch & Stitch 3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sketch & Stitch 3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0045547D51459BA376DBE0161C36185 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket/Socket.swift; sourceTree = "<group>"; };
+		C19E3CF33F311059D361681F212233B1 /* Pods-Sketch & Stitch 3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sketch & Stitch 3.modulemap"; sourceTree = "<group>"; };
+		C4F3BFB281C10D711A8093E376A40721 /* Pods-Sketch & Stitch 3Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sketch & Stitch 3Tests-Info.plist"; sourceTree = "<group>"; };
+		C5E7E291FAF8BAD8A21BB35EE87FD851 /* Pods-Sketch & Stitch 3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sketch & Stitch 3.debug.xcconfig"; sourceTree = "<group>"; };
+		C752D5C2109A133EFFA6007A573D3925 /* Pods-Sketch & Stitch 3UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sketch & Stitch 3UITests-dummy.m"; sourceTree = "<group>"; };
+		CC088D8856D19325A7AE270D8131BC6D /* Pods-Sketch & Stitch 3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sketch & Stitch 3-umbrella.h"; sourceTree = "<group>"; };
+		CCC3DD7FAAA6EE427D8FC1E557E03CE0 /* Pods-Sketch & Stitch 3Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sketch & Stitch 3Tests.modulemap"; sourceTree = "<group>"; };
+		D931908A7965777FACDFF23C2AF94FD0 /* Pods_Sketch___Stitch_3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sketch___Stitch_3Tests.framework; path = "Pods-Sketch & Stitch 3Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CDFBB5C87B66841CDE55D6694BF1D2 /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Socket.framework; path = BlueSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FDE7B5A500DD9D7C25D5AE688100B0 /* Pods-Sketch & Stitch 3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sketch & Stitch 3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3CFA2DC6EBE003493AED4E85F680CED /* Pods-Sketch & Stitch 3Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sketch & Stitch 3Tests-umbrella.h"; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D8B78AABF93DC5CE8A086F6856E0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056041E1A29FED08F2747BAA2E04D7B5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46084A33AD76B48A384BCEDB6E402AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B84BFB4C8DE7978ED4D00C87DF70841 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DBE14B1AFF4CBD9728AEAFC2A6A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAD55BB5438E7B6BC713A382B0F43DC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6273D3E66D7026699A44C265231F066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3697872CA6E047A4514CF353C0BADF95 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDCBD9A9B66FE0B279FE16D4DD0902A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F7DE5DCC0F5DF2F9EC043329AA94EE8 /* Pods_Sketch___Stitch_3.framework */,
+				D931908A7965777FACDFF23C2AF94FD0 /* Pods_Sketch___Stitch_3Tests.framework */,
+				51547208E9BA807703ED724595E2562D /* Pods_Sketch___Stitch_3UITests.framework */,
+				D9CDFBB5C87B66841CDE55D6694BF1D2 /* Socket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11CE1E87E37E7513BA08D84D433FE789 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1848863E25738925BB934EF99BB68 /* BlueSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54960CB8788A0E4F27F0D79AF656AC9A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A29D43350ED0FFAEB215807FF2A69340 /* Pods-Sketch & Stitch 3 */,
+				E2266123D4B4D5B8C8BAAD361BFCB986 /* Pods-Sketch & Stitch 3Tests */,
+				DF668B0D632CF9F7353F8B645B58BDCB /* Pods-Sketch & Stitch 3UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A29D43350ED0FFAEB215807FF2A69340 /* Pods-Sketch & Stitch 3 */ = {
+			isa = PBXGroup;
+			children = (
+				C19E3CF33F311059D361681F212233B1 /* Pods-Sketch & Stitch 3.modulemap */,
+				2D7D93D80B4E9F088736D5CA9367E3DD /* Pods-Sketch & Stitch 3-acknowledgements.markdown */,
+				22B8F874D95106C316441CF1CE9DA2B0 /* Pods-Sketch & Stitch 3-acknowledgements.plist */,
+				AABEF87E1CCEF14EC037B463D6007C18 /* Pods-Sketch & Stitch 3-dummy.m */,
+				A378697BD4FF6090D9D0A7544825F089 /* Pods-Sketch & Stitch 3-frameworks.sh */,
+				5956502E44A0ECB527523122EC61B8F5 /* Pods-Sketch & Stitch 3-Info.plist */,
+				CC088D8856D19325A7AE270D8131BC6D /* Pods-Sketch & Stitch 3-umbrella.h */,
+				C5E7E291FAF8BAD8A21BB35EE87FD851 /* Pods-Sketch & Stitch 3.debug.xcconfig */,
+				90338516E1EE6C36937E439C7345ED17 /* Pods-Sketch & Stitch 3.release.xcconfig */,
+			);
+			name = "Pods-Sketch & Stitch 3";
+			path = "Target Support Files/Pods-Sketch & Stitch 3";
+			sourceTree = "<group>";
+		};
+		C9F1848863E25738925BB934EF99BB68 /* BlueSocket */ = {
+			isa = PBXGroup;
+			children = (
+				C0045547D51459BA376DBE0161C36185 /* Socket.swift */,
+				0B82785AAAC92988135C69B51F1C99F6 /* SocketProtocols.swift */,
+				495C4CAA4BA487606CACD71C58FC6BBE /* SocketUtils.swift */,
+				E362DC894E104EEB8A9622ED32CB7741 /* Support Files */,
+			);
+			name = BlueSocket;
+			path = BlueSocket;
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				11CE1E87E37E7513BA08D84D433FE789 /* Pods */,
+				0DDCBD9A9B66FE0B279FE16D4DD0902A /* Products */,
+				54960CB8788A0E4F27F0D79AF656AC9A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF668B0D632CF9F7353F8B645B58BDCB /* Pods-Sketch & Stitch 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D32BE0BEB99FCC637DD8E9505A3CA28 /* Pods-Sketch & Stitch 3UITests.modulemap */,
+				47330C0CA64E51E176E239D88FA5081C /* Pods-Sketch & Stitch 3UITests-acknowledgements.markdown */,
+				5F215959FEE92F25E038B46BE891F114 /* Pods-Sketch & Stitch 3UITests-acknowledgements.plist */,
+				C752D5C2109A133EFFA6007A573D3925 /* Pods-Sketch & Stitch 3UITests-dummy.m */,
+				049078318C7B4E925E4A9298E13ADEC3 /* Pods-Sketch & Stitch 3UITests-Info.plist */,
+				01CEC35D9B46DD1754D1382006A746A9 /* Pods-Sketch & Stitch 3UITests-umbrella.h */,
+				8DECF31FA48151E7BDBD7F9FEC59EF7D /* Pods-Sketch & Stitch 3UITests.debug.xcconfig */,
+				E1FDE7B5A500DD9D7C25D5AE688100B0 /* Pods-Sketch & Stitch 3UITests.release.xcconfig */,
+			);
+			name = "Pods-Sketch & Stitch 3UITests";
+			path = "Target Support Files/Pods-Sketch & Stitch 3UITests";
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2266123D4B4D5B8C8BAAD361BFCB986 /* Pods-Sketch & Stitch 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC3DD7FAAA6EE427D8FC1E557E03CE0 /* Pods-Sketch & Stitch 3Tests.modulemap */,
+				125894BDD60DA2D4A9D954E110D37FBB /* Pods-Sketch & Stitch 3Tests-acknowledgements.markdown */,
+				A7566F2E5F27254474DAFDBEE8B09D0C /* Pods-Sketch & Stitch 3Tests-acknowledgements.plist */,
+				B0F3FF6D816F0F0FE0A0014D1E4870F6 /* Pods-Sketch & Stitch 3Tests-dummy.m */,
+				C4F3BFB281C10D711A8093E376A40721 /* Pods-Sketch & Stitch 3Tests-Info.plist */,
+				E3CFA2DC6EBE003493AED4E85F680CED /* Pods-Sketch & Stitch 3Tests-umbrella.h */,
+				3043F3A7841F26766AF03F7A9722274E /* Pods-Sketch & Stitch 3Tests.debug.xcconfig */,
+				B4CBCE2FA0CB6CE07F94087A00D5933D /* Pods-Sketch & Stitch 3Tests.release.xcconfig */,
+			);
+			name = "Pods-Sketch & Stitch 3Tests";
+			path = "Target Support Files/Pods-Sketch & Stitch 3Tests";
+			sourceTree = "<group>";
+		};
+		E362DC894E104EEB8A9622ED32CB7741 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D9E1D400E435D7BAA026B8C86283A80 /* BlueSocket.modulemap */,
+				84A19E80FC8D299C28DC76F15536C576 /* BlueSocket.xcconfig */,
+				8C18D7CCA7B3A52BEA6C992F22771629 /* BlueSocket-dummy.m */,
+				4F0E48C7BDED353DF2558F1A34E54435 /* BlueSocket-Info.plist */,
+				0B940406289430F4F41AF26079E1E64F /* BlueSocket-prefix.pch */,
+				33A72F0F8D06160E1F8C914484130F0B /* BlueSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlueSocket";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E12E1945889879B9FE629A0069E32F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374FA8583271D8C2B267A3D9A49BA6C9 /* Pods-Sketch & Stitch 3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D7A848E069A24D56065A5C6D8B0668 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C0239A1444373ED519CFAF57E3A2E /* BlueSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B06AE1FE23A8877E9318FFCE908DC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC7921EFB429FC6B3B5AA8D5EDD1BE7 /* Pods-Sketch & Stitch 3Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC2E7EE71DC760A4BF2829BFE8ADB6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0EC3C91E39A8541AAAF4A78018509E /* Pods-Sketch & Stitch 3UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23016E25C8D49BDDA24BA12607FF90EA /* Pods-Sketch & Stitch 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2524608F1760C58C28CAD5E38A0808 /* Build configuration list for PBXNativeTarget "Pods-Sketch & Stitch 3Tests" */;
+			buildPhases = (
+				A6B06AE1FE23A8877E9318FFCE908DC9 /* Headers */,
+				5D383D6809F2E208D19A5BB761B82FF9 /* Sources */,
+				15D8B78AABF93DC5CE8A086F6856E0EF /* Frameworks */,
+				8A0B4498CA85CF8209A4ECFEFCFD737C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B309F5FCC32EE8F48E39548D557F0EE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sketch & Stitch 3Tests";
+			productName = "Pods-Sketch & Stitch 3Tests";
+			productReference = D931908A7965777FACDFF23C2AF94FD0 /* Pods_Sketch___Stitch_3Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		358D9EE714CD3EE356D73663403C171B /* Pods-Sketch & Stitch 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20187534C186E9EC67878D82B4B8E3AB /* Build configuration list for PBXNativeTarget "Pods-Sketch & Stitch 3" */;
+			buildPhases = (
+				4E12E1945889879B9FE629A0069E32F1 /* Headers */,
+				CB0F7AD62C266B046E8565BAAD3B9C76 /* Sources */,
+				46084A33AD76B48A384BCEDB6E402AFB /* Frameworks */,
+				096CDF46801BD1F3ADE5038A346D4306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8242E37B675E6747D61904B0F4A15FB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sketch & Stitch 3";
+			productName = "Pods-Sketch & Stitch 3";
+			productReference = 6F7DE5DCC0F5DF2F9EC043329AA94EE8 /* Pods_Sketch___Stitch_3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53A9355368E08C51EFF38FF6DE6DCA50 /* Pods-Sketch & Stitch 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79EA62F6BDC7D30A4487BF395D2EA75 /* Build configuration list for PBXNativeTarget "Pods-Sketch & Stitch 3UITests" */;
+			buildPhases = (
+				CCC2E7EE71DC760A4BF2829BFE8ADB6D /* Headers */,
+				D0640B941C37425727739E745A735CB1 /* Sources */,
+				A6273D3E66D7026699A44C265231F066 /* Frameworks */,
+				294AF1F1CAF7F8BDACC01AAF66AF80C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFE27DFE7C50B5F04EB9E2B80DF06A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sketch & Stitch 3UITests";
+			productName = "Pods-Sketch & Stitch 3UITests";
+			productReference = 51547208E9BA807703ED724595E2562D /* Pods_Sketch___Stitch_3UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CF113BA05837B32C81D416D32A91FA /* Build configuration list for PBXNativeTarget "BlueSocket" */;
+			buildPhases = (
+				77D7A848E069A24D56065A5C6D8B0668 /* Headers */,
+				D7456F428C4DB2D1BED049EBA2D68193 /* Sources */,
+				4F8DBE14B1AFF4CBD9728AEAFC2A6A50 /* Frameworks */,
+				34AD9C3ACCBEB615718EEB636D9749FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSocket;
+			productName = BlueSocket;
+			productReference = D9CDFBB5C87B66841CDE55D6694BF1D2 /* Socket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0DDCBD9A9B66FE0B279FE16D4DD0902A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */,
+				358D9EE714CD3EE356D73663403C171B /* Pods-Sketch & Stitch 3 */,
+				23016E25C8D49BDDA24BA12607FF90EA /* Pods-Sketch & Stitch 3Tests */,
+				53A9355368E08C51EFF38FF6DE6DCA50 /* Pods-Sketch & Stitch 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096CDF46801BD1F3ADE5038A346D4306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294AF1F1CAF7F8BDACC01AAF66AF80C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AD9C3ACCBEB615718EEB636D9749FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0B4498CA85CF8209A4ECFEFCFD737C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D383D6809F2E208D19A5BB761B82FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00825C45590496AB142E1F5CF75FC997 /* Pods-Sketch & Stitch 3Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0F7AD62C266B046E8565BAAD3B9C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F8F94D0E28EC4066168DBA1319706E /* Pods-Sketch & Stitch 3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0640B941C37425727739E745A735CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70AC7195D9907F2B277EFA20EF424B7 /* Pods-Sketch & Stitch 3UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7456F428C4DB2D1BED049EBA2D68193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58046DA3BF9C45D42008153A87AA6D5E /* BlueSocket-dummy.m in Sources */,
+				3084175D220D90CA7DD1B3517DB51E9E /* Socket.swift in Sources */,
+				562806373A305C968A3A5E4FBC0B2A25 /* SocketProtocols.swift in Sources */,
+				D3EE28067971701DADE88A46663B366D /* SocketUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8242E37B675E6747D61904B0F4A15FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSocket;
+			target = 9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */;
+			targetProxy = F08F14BCBD0788E5D8BC2645F5513DDA /* PBXContainerItemProxy */;
+		};
+		B309F5FCC32EE8F48E39548D557F0EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sketch & Stitch 3";
+			target = 358D9EE714CD3EE356D73663403C171B /* Pods-Sketch & Stitch 3 */;
+			targetProxy = B7CCCB63AACDFCEBADFA7311D564136D /* PBXContainerItemProxy */;
+		};
+		BAFE27DFE7C50B5F04EB9E2B80DF06A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sketch & Stitch 3";
+			target = 358D9EE714CD3EE356D73663403C171B /* Pods-Sketch & Stitch 3 */;
+			targetProxy = 5F173819B182F254A460D17F543617D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E6D5C951CCF88DDC8A83AFBB97AD884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90338516E1EE6C36937E439C7345ED17 /* Pods-Sketch & Stitch 3.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		186576160C1DD55B6D57B9C3696E81CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DECF31FA48151E7BDBD7F9FEC59EF7D /* Pods-Sketch & Stitch 3UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sketch & Stitch 3UITests/Pods-Sketch & Stitch 3UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sketch & Stitch 3UITests/Pods-Sketch & Stitch 3UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		469F9FBEC1D91786867E87DDDC44E479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A19E80FC8D299C28DC76F15536C576 /* BlueSocket.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/BlueSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D7EA0B4B02B7A41F33C4E07117C42ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E7E291FAF8BAD8A21BB35EE87FD851 /* Pods-Sketch & Stitch 3.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sketch & Stitch 3/Pods-Sketch & Stitch 3.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9480BB8E97E264CC64D6F2585A026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4CBCE2FA0CB6CE07F94087A00D5933D /* Pods-Sketch & Stitch 3Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sketch & Stitch 3Tests/Pods-Sketch & Stitch 3Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sketch & Stitch 3Tests/Pods-Sketch & Stitch 3Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9382317ED75CFC741F429FC224405042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B843B29B8F456348D4DE78407EA2E7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1FDE7B5A500DD9D7C25D5AE688100B0 /* Pods-Sketch & Stitch 3UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sketch & Stitch 3UITests/Pods-Sketch & Stitch 3UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sketch & Stitch 3UITests/Pods-Sketch & Stitch 3UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5B15A60E3B34C0DE4DAE0178A750096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A19E80FC8D299C28DC76F15536C576 /* BlueSocket.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/BlueSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4DEAC9B52796426D2A37E7074A1738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F83FE1266D7FDBF2220ABF0C72A4B8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3043F3A7841F26766AF03F7A9722274E /* Pods-Sketch & Stitch 3Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sketch & Stitch 3Tests/Pods-Sketch & Stitch 3Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sketch & Stitch 3Tests/Pods-Sketch & Stitch 3Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20187534C186E9EC67878D82B4B8E3AB /* Build configuration list for PBXNativeTarget "Pods-Sketch & Stitch 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7EA0B4B02B7A41F33C4E07117C42ED /* Debug */,
+				0E6D5C951CCF88DDC8A83AFBB97AD884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CF113BA05837B32C81D416D32A91FA /* Build configuration list for PBXNativeTarget "BlueSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469F9FBEC1D91786867E87DDDC44E479 /* Debug */,
+				C5B15A60E3B34C0DE4DAE0178A750096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382317ED75CFC741F429FC224405042 /* Debug */,
+				E4DEAC9B52796426D2A37E7074A1738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79EA62F6BDC7D30A4487BF395D2EA75 /* Build configuration list for PBXNativeTarget "Pods-Sketch & Stitch 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186576160C1DD55B6D57B9C3696E81CA /* Debug */,
+				B843B29B8F456348D4DE78407EA2E7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2524608F1760C58C28CAD5E38A0808 /* Build configuration list for PBXNativeTarget "Pods-Sketch & Stitch 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83FE1266D7FDBF2220ABF0C72A4B8FC /* Debug */,
+				6F9480BB8E97E264CC64D6F2585A026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

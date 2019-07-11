@@ -1,0 +1,6 @@
+framework module Pods_Sketch___Stitch_3UITests {
+  umbrella header "Pods-Sketch & Stitch 3UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
