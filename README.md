@@ -26,7 +26,7 @@ For access to the paper and videos see: https://hci.rwth-aachen.de/sketchstitch
 
 From the 'master' branch, download '190711 S&S Suite'.
 
-**Mac OS App**
+**macOS App**
 
   From the Terminal 
   
@@ -38,7 +38,7 @@ From the 'master' branch, download '190711 S&S Suite'.
     
   From Xcode
   
-    Compile ⁨190711 S&S Suite⁩ ▸ ⁨Source Code macOS⁩ ▸ ⁨SketchAndStitch3⁩ ▸ SketchAndStitch3.xcworkspace
+    Compile ⁨190711 S&S Suite⁩ ▸ ⁨Source Code macOS⁩ ▸ ⁨SketchAndStitch3⁩ ▸ Sketch _ Stitch 3.xcworkspace
 
 
 **iOS App**
@@ -62,3 +62,13 @@ From the 'master' branch, download '190711 S&S Suite'.
   
   Run 190711 S&S Suite⁩ ▸ ⁨Bernina Software Automation⁩ ▸ Bernina Automation.exe on a Windows VM
   
+  
+**Tested in the follwoing enviroment:**
+
+macOS Mojave Version 10.14.5 (18F132)
+
+Xcode Version 10.2.1 (10E1001) and Swift 5
+
+iPhone X 
+
+gem Version 2.5.2.3
