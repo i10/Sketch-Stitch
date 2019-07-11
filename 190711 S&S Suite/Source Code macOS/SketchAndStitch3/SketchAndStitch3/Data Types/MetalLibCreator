@@ -1,0 +1,7 @@
+#! /bin/bash
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd "${DIR}"
+
+xcrun -sdk macosx metal -c Filter.metal -o Filter.air
+xcrun -sdk macosx metallib Filter.air -o Filter.metallib
