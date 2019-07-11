@@ -20,6 +20,8 @@ ACM Reference Format: Nur Al-huda Hamdan, Simon Voelker, Jan Borchers. 2018. Ske
 
 For access to the paper and videos see: https://hci.rwth-aachen.de/sketchstitch
 
+------------
+
 **How To Run The Application**
 
 From the 'master' branch, download '190711 S&S Suite'.
